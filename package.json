@@ -1,12 +1,11 @@
 {
   "name": "language-protobuf",
-  "version": "0.0.0",
+  "version": "0.1.0",
   "description": "Adds protobuf support to atom",
   "repository": "https://github.com/podgib/atom-protobuf",
   "license": "MIT",
   "engines": {
     "atom": ">0.50.0"
   },
-  "dependencies": {
-  }
+  "dependencies": {}
 }
