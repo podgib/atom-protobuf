@@ -10,8 +10,10 @@
       '1':
         'name': 'keyword.other.import.protobuf'
       '2':
+        'name': 'keyword.other.import.public.protobuf'
+      '3':
         'name': 'string.quoted.double.import.protobuf'
-    'match': '(import) (".*")'
+    'match': '(import) (public )?(".*")'
     'name': 'meta.import.declaration.protobuf'
   }
   {
