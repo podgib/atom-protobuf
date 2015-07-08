@@ -1,6 +1,6 @@
 {
   "name": "language-protobuf",
-  "version": "0.4.0",
+  "version": "0.5.0",
   "description": "Adds protocol buffer support to atom",
   "repository": "https://github.com/podgib/atom-protobuf",
   "license": "MIT",
