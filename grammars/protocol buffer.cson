@@ -224,7 +224,7 @@
       }
     ]
   'group_field':
-    'begin': '(required|optional|repeated)\\s+(group)\\s+([A-Za-z0-9_]+)\\s*=\\s*(\\d+)\\s*{'
+    'begin': '(required|optional|repeated)?\\s+(group)\\s+([A-Za-z0-9_]+)\\s*=\\s*(\\d+)\\s*{'
     'captures':
       '1':
         'name': 'keyword.control.occurrences.protobuf'
@@ -295,7 +295,7 @@
         'name': 'variable.other.primitive-field.protobuf'
       '7':
         'name': 'constant.numeric.field-tag.protobuf'
-    'match': '(required|optional|repeated)\\s+(((s|u)?int|s?fixed)(32|64)|string|bytes|bool)\\s+(\\S+)\\s*=\\s*(\\d+)'
+    'match': '(required|optional|repeated)?\\s+(((s|u)?int|s?fixed)(32|64)|string|bytes|bool)\\s+(\\S+)\\s*=\\s*(\\d+)'
   'rpc_primitive_attribute':
     'beginCaptures':
       '1':
@@ -345,5 +345,5 @@
         'name': 'variable.other.primitive-field.protobuf'
       '4':
         'name': 'constant.numeric.field-tag.protobuf'
-    'match': '(required|optional|repeated)\\s+([A-Za-z.]*)\\s+(\\S+)\\s*=\\s*(\\d+)'
+    'match': '(required|optional|repeated)?\\s+([A-Za-z.]*)\\s+(\\S+)\\s*=\\s*(\\d+)'
 'scopeName': 'source.protobuf'
